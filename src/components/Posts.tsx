@@ -2,7 +2,7 @@ import PostList from "./PostList";
 import type { Posts } from "../types";
 import React from "react";
 
-export default function Posts():React.JSX.Element{
+export default function Posts({search}: {search: string}):React.JSX.Element{
     const [currentPage, setCurrentPage] = React.useState(1);
 
 const [posts, setPosts] = React.useState<Posts[]>([]);
@@ -13,6 +13,13 @@ const [posts, setPosts] = React.useState<Posts[]>([]);
       .then(data => setPosts(data))
       .catch(err => console.error(err));
   }, []);
+  
+  const filtered = React.useMemo(()=>{
+    if(search.length > 0){
+        return posts.filter(post=> post.title.toLowerCase().includes(search.toLowerCase()))
+    }
+    return posts
+  },[search, posts])
 
 
     return (
@@ -25,13 +32,13 @@ const [posts, setPosts] = React.useState<Posts[]>([]);
                             disabled = {currentPage === 1}
                             className="px-3 py-1 bg-black text-white rounded-sm disabled:bg-gray-400 disabled:cursor-not-allowed"
                     >Previous</button>
-                    <p>Page {currentPage} of {posts.length>10? Math.ceil(posts.length / 10) : 1}</p>
+                    <p>Page {currentPage} of {filtered.length>10? Math.ceil(filtered.length / 10) : 1}</p>
                     <button onClick={() => setCurrentPage(currentPage+1)}
-                            disabled = {currentPage === Math.ceil(posts.length / 10) || posts.length === 0}
+                            disabled = {currentPage === Math.ceil(filtered.length / 10)}
                             className="px-3 py-1 bg-black text-white rounded-sm disabled:bg-gray-400 disabled:cursor-not-allowed"
                     >Next</button>
                 </div>
-            <PostList current={currentPage} posts={posts}/>
+            <PostList current={currentPage} posts={filtered}/>
         </div>
     )
 }

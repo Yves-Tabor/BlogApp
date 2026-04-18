@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { Posts } from "../types";
 
 function PostCard({ post }: { post: Posts }): React.JSX.Element {
+
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-100">
       <div className="p-6">
@@ -11,13 +12,10 @@ function PostCard({ post }: { post: Posts }): React.JSX.Element {
           <h2 className="text-2xl font-semibold text-gray-800 hover:text-[#709A84] transition-colors duration-200">
             {post.title}
           </h2>
-          <div className="flex justify-end ml-auto">
-            <img src={post.img} alt="./assets/hero.png" className="w-16 h-16 object-cover rounded-lg" />
-          </div>
         </div>
         
         <p className="text-gray-600 mb-6 line-clamp-3 leading-relaxed">
-          {post.content}
+          {(post.content).slice(0, 100)}...
         </p>
         
         <div className="flex items-center justify-between">
