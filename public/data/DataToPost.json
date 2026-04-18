@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React Router",
+    "img": "https://images.unsplash.com/photo-1581276879432-15e50529f34b",
+    "content": "React Router helps you create navigation in your React applications without reloading the page. In this post, we explore how to define routes, navigate between pages, and use dynamic routing."
+  },
+  {
+    "id": 2,
+    "title": "Understanding useEffect in React",
+    "img": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+    "content": "The useEffect hook allows you to perform side effects in your components. This includes fetching data, updating the DOM, and setting up subscriptions."
+  },
+  {
+    "id": 3,
+    "title": "Why Tailwind CSS is So Popular",
+    "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "content": "Tailwind CSS is a utility-first CSS framework that allows you to build modern UIs quickly. Instead of writing custom CSS, you use predefined classes directly in your markup."
+  },
+  {
+    "id": 4,
+    "title": "JavaScript ES6 Features You Should Know",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "ES6 introduced many powerful features like arrow functions, destructuring, spread operators, and modules. These features make JavaScript more expressive and easier to write.",
+    "time": "5 hours ago"
+  },
+  {
+    "id": 5,
+    "title": "Building Your First Web App",
+    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "content": "Starting your first web app can feel overwhelming. This guide walks you through the process of planning, building, and deploying a simple application step by step.",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 6,
+    "title": "Getting Started with React Router",
+    "img": "https://images.unsplash.com/photo-1581276879432-15e50529f34b",
+    "content": "React Router helps you create navigation in your React applications without reloading the page. In this post, we explore how to define routes, navigate between pages, and use dynamic routing.",
+    "time": "7 hours ago"
+  },
+  {
+    "id": 7,
+    "title": "Understanding useEffect in React",
+    "img": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+    "content": "The useEffect hook allows you to perform side effects in your components. This includes fetching data, updating the DOM, and setting up subscriptions.",
+    "time": "8 hours ago"
+  },
+  {
+    "id": 8,
+    "title": "Why Tailwind CSS is So Popular",
+    "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "content": "Tailwind CSS is a utility-first CSS framework that allows you to build modern UIs quickly. Instead of writing custom CSS, you use predefined classes directly in your markup.",
+    "time": "9 hours ago"
+  },
+  {
+    "id": 9,
+    "title": "JavaScript ES6 Features You Should Know",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "ES6 introduced many powerful features like arrow functions, destructuring, spread operators, and modules. These features make JavaScript more expressive and easier to write."
+  },
+  {
+    "id": 10,
+    "title": "Building Your First Web App",
+    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "content": "Starting your first web app can feel overwhelming. This guide walks you through the process of planning, building, and deploying a simple application step by step."
+  },
+  {
+    "id": 11,
+    "title": "In top of the second Page",
+    "img": "https://images.unsplash.com/photo-1581276879432-15e50529f34b",
+    "content": "React Router helps you create navigation in your React applications without reloading the page. In this post, we explore how to define routes, navigate between pages, and use dynamic routing."
+  },
+  {
+    "id": 12,
+    "title": "In top of the second Page",
+    "img": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+    "content": "The useEffect hook allows you to perform side effects in your components. This includes fetching data, updating the DOM, and setting up subscriptions."
+  },
+  {
+    "id": 13,
+    "title": "Why Tailwind CSS is So Popular",
+    "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "content": "Tailwind CSS is a utility-first CSS framework that allows you to build modern UIs quickly. Instead of writing custom CSS, you use predefined classes directly in your markup."
+  },
+  {
+    "id": 14,
+    "title": "JavaScript ES6 Features You Should Know",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "ES6 introduced many powerful features like arrow functions, destructuring, spread operators, and modules. These features make JavaScript more expressive and easier to write."
+  },
+  {
+    "id": 15,
+    "title": "Building Your First Web App",
+    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    "content": "Starting your first web app can feel overwhelming. This guide walks you through the process of planning, building, and deploying a simple application step by step."
+  }
+]

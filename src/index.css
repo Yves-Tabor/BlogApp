@@ -38,3 +38,10 @@ nav {
   transition: color 0.2s ease;
   cursor: pointer;
 }
+#paginate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
