@@ -1,7 +1,7 @@
 export default function About():React.JSX.Element{
   const teamMembers = [
     {
-      name: "Yves Thabor",
+      name: "Yves Thaborr",
       role: "Lead Developer",
       bio: "Full-stack developer with expertise in React, TypeScript, and modern web architectures.",
       avatar: "YT"
