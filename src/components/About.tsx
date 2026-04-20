@@ -1,22 +1,22 @@
 export default function About():React.JSX.Element{
   const teamMembers = [
     {
-      name: "Alex Chen",
+      name: "Yves Thabor",
       role: "Lead Developer",
       bio: "Full-stack developer with expertise in React, TypeScript, and modern web architectures.",
-      avatar: "AC"
+      avatar: "YT"
     },
     {
-      name: "Sarah Johnson",
+      name: "Salomon Elisha",
       role: "UX Designer",
       bio: "Passionate about creating intuitive user experiences and beautiful interfaces.",
-      avatar: "SJ"
+      avatar: "SE"
     },
     {
-      name: "Mike Williams",
+      name: "John Daniel",
       role: "Content Strategist",
       bio: "Technical writer focused on making complex concepts accessible to developers.",
-      avatar: "MW"
+      avatar: "JD"
     }
   ];
 
@@ -31,7 +31,7 @@ export default function About():React.JSX.Element{
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#709A84] to-[#5a7f6a] text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#709A84] to-[#5a7f6a] text-black overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block bg-white/20 backdrop-blur-sm text-white font-bold text-xs uppercase tracking-widest px-3 py-1 mb-6 rounded-full">

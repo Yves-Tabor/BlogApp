@@ -7,7 +7,7 @@ export default function Home():React.JSX.Element{
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#709A84] to-[#5a7f6a] text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#709A84] to-[#5a7f6a] text-black overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="z-10">
