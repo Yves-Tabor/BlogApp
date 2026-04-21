@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,16 +9,17 @@
 }
 
 body {
+  width: 100svw;
+  height: 100svh;
   font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8fafc;
-  color: #1e293b;
 }
 
 /* Navbar Styles */
 nav {
-  background: #667eea;
+  background: #709A84;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -29,14 +34,14 @@ nav {
 #logo h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: black;
+
   transition: color 0.2s ease;
   cursor: pointer;
 }
-#mini{
-  color: white;
-}
-
-#mini:hover {
-  color: #e0e7ff;
+#paginate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
